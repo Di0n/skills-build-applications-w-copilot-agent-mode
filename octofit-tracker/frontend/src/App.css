@@ -1,0 +1,48 @@
+.app-shell {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f6f9ff 0%, #eef3fb 45%, #f7fafc 100%);
+}
+
+.app-nav {
+  box-shadow: 0 8px 24px rgba(17, 24, 39, 0.12);
+}
+
+.app-brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.app-nav-link {
+  border-radius: 999px;
+  padding: 0.45rem 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.app-nav-link.active {
+  background-color: #0d6efd;
+  color: #fff !important;
+}
+
+.app-main {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.page-card {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.json-preview {
+  max-width: 420px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
